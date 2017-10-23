@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import Time from './format_time';
+
 class Stopwatch extends Component{
     constructor(props){
         super(props);
         this.state = {
             status: 'stopped',
             start: null,
-            elapsed : 0
+            elapsed: 0
         };
         this.start = this.start.bind(this);
         this.stop = this.stop.bind(this);
