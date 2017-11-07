@@ -3,7 +3,7 @@ import MoviesContainer from './movie_container';
 
 export default () => (
     <div className="container">
-        <h1 className="text-center">Axios Demo</h1>
+        <h1 className="text-center">Top Movies on iTunes</h1>
         <MoviesContainer />
     </div>
 );
