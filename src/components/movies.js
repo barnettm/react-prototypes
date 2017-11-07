@@ -11,7 +11,7 @@ export default props => {
                     <div className="card-block">
                     <h3 className="card-title">{info['im:name'].label}</h3>
                     <p className="card-text">{info['summary'].label}</p>
-                    <a href={info['link'][1].attributes.href} class='btn btn-outline-primary'>View Trailer</a>
+                    <a className='btn btn-outline-primary' href={info['link'][1].attributes.href} role="button">View Trailer</a>
                 </div>
 
             </div>
